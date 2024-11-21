@@ -1,0 +1,46 @@
+import Image from "next/image";
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles2 from "../../Assets/scss/page.module.scss";
+import img1 from "../../Assets/images/img1.png";
+
+const Summary = () => {
+  return (
+    <div className={`container mt-5 ${styles2.page}`}>
+      {/* Title Section */}
+      <div className={`text-center mb-4 ${styles2.title}`}>
+        <h3>This is it</h3>
+        <div className={styles2.line}></div>
+      </div>
+
+      {/* Main Content Section */}
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-8 col-lg-6">
+          {/* Image */}
+          <div className="text-center mb-4">
+            <Image src={img1} alt="not" className="img-fluid" />
+          </div>
+
+          {/* Paragraph */}
+          <div className={styles2.paragraph}>
+            <p>
+              The Great Gatsby is a story about the impossibility of recapturing
+              the past and also the difficulty of altering one’s future. The
+              protagonist of the novel is Jay Gatsby, who is the mysterious and
+              wealthy neighbor of the narrator, Nick Carraway. Although we know
+              little about Gatsby at first, we know from Nick’s introduction—and
+              from the book’s title— that Gatsby’s story will be the focus of
+              the novel. As the novel progresses and Nick becomes increasingly
+              drawn into Gatsby’s complicated world, we learn what Gatsby wants:
+              Daisy, Nick’s cousin, the girl he once loved. Anything and anyone
+              that stands between Gatsby and Daisy becomes an antagonist.
+              Although Daisy’s brutish husband Tom is the most obvious
+              antagonist, a variety of more abstract concepts—such as class.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Summary;

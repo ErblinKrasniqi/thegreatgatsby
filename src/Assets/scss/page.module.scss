@@ -1,10 +1,77 @@
 .page {
+  // Full-page height to center content vertically
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px; // Padding on sides for mobile devices
+
+  // Ensures a smooth scroll on mobile
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .line {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 0 auto;
+  }
 }
 
 .paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify; // Justify text for better readability
+  margin-bottom: 2rem;
+
   p {
-    font-size: 16px;
-    line-height: 29px;
-    max-width: 70%;
+    margin-bottom: 1.5rem;
+  }
+
+  // Add media query for smaller screens
+  @media (max-width: 768px) {
+    font-size: 0.9rem; // Slightly smaller font on smaller screens
+    margin-bottom: 1rem;
+  }
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Light shadow for the image
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 10px; // Reduce padding on small devices
+  }
+
+  .title h3 {
+    font-size: 1.5rem; // Make the title smaller on mobile
+  }
+
+  .paragraph {
+    font-size: 0.9rem; // Smaller font size for better mobile readability
   }
 }
