@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./shared/Navbar/Navbar";
 // Import your components for the other pages (commented for now)
