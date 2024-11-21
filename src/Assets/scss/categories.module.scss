@@ -1,0 +1,60 @@
+.container {
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.subContainer {
+  margin-top: 2rem;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  padding: 10px;
+}
+
+.block:hover {
+  .popup {
+    visibility: visible;
+  }
+}
+
+.line {
+  height: 1px;
+  background-color: black;
+}
+
+//POPUP
+
+.popup {
+  position: absolute;
+  visibility: hidden;
+  border-radius: 10px;
+  min-width: 10rem;
+  margin-top: 10px;
+  padding: 1rem 0;
+  background-color: white;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.309);
+  z-index: 9999;
+
+  p {
+    font-size: 17px;
+
+    margin: 5px;
+
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  p:hover {
+    background-color: rgba(0, 0, 0, 0.104);
+  }
+}
+
+.popup:hover {
+  visibility: visible;
+}

@@ -1,95 +1,110 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from "react";
+import styles from "../Assets/scss/categories.module.scss";
+import styles2 from "../Assets/scss/page.module.scss";
+import Navbar from "./shared/Navbar/Navbar";
+import Link from "next/link";
+
+const categorieContent = [
+  {
+    id: 1,
+    name: "Summary",
+
+    active: true,
+  },
+  {
+    id: 2,
+    name: "Characters",
+
+    active: false,
+  },
+  {
+    id: 3,
+    name: "Literary Device",
+
+    active: false,
+  },
+  {
+    id: 4,
+    name: "Questions & Answers",
+
+    active: false,
+  },
+  {
+    id: 5,
+    name: "Quotes",
+
+    active: false,
+  },
+  {
+    id: 6,
+    name: "Quick Quizzes",
+
+    active: false,
+  },
+  {
+    id: 7,
+    name: "Essays",
+
+    active: false,
+  },
+  {
+    id: 8,
+    name: "Further Study",
+
+    active: false,
+  },
+];
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <React.Fragment>
+      <Navbar />
+      <div className={styles.container}>
+        <div className={styles.subContainer}>
+          <div className={styles.categories}>
+            {categorieContent.map((categorie) => (
+              <div key={categorie.id} className={styles.block}>
+                <h3>{categorie.name}</h3>
+                <div className={styles.line}></div>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+                {/* Conditionally render popup based on active state */}
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      <div className={styles.container}>
+        <div className={styles2.page}>
+          <div className={styles2.title}>
+            <h3>This is it</h3>
+            <div className={styles2.line}></div>
+          </div>
+          <div className={styles2.paragraph}>
+            <p>
+              The Great Gatsby is a story about the impossibility of recapturing
+              the past and also the difficulty of altering one’s future. The
+              protagonist of the novel is Jay Gatsby, who is the mysterious and
+              wealthy neighbor of the narrator, Nick Carraway. Although we know
+              little about Gatsby at first, we know from Nick’s introduction—and
+              from the book’s title—that Gatsby’s story will be the focus of the
+              novel. As the novel progresses and Nick becomes increasingly drawn
+              into Gatsby’s complicated world, we learn what Gatsby wants:
+              Daisy, Nick’s cousin, the girl he once loved. Anything and anyone
+              that stands between Gatsby and Daisy becomes an antagonist.
+              Although Daisy’s brutish husband Tom is the most obvious
+              antagonist, a variety of more abstract concepts—such as class
+              <br />m the book’s title—that Gatsby’s story will be the focus of
+              the novel. As the novel progresses and Nick becomes increasingly
+              drawn into Gatsby’s complicated world, we learn what Gatsby wants:
+              Daisy, Nick’s cousin, the girl he once loved. Anything and anyone
+              that stands between Gatsby and Daisy becomes an antagonist.
+              Although Daisy’s brutish husband Tom is the most obvious
+              antagonist, a variety of more abstract concepts—such as class
+            </p>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }

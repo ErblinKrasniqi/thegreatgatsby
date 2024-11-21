@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -17,11 +17,9 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: black;
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 * {
