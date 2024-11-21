@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-import Navbar from "./shared/Navbar/Navbar";
+// import Navbar from "./shared/Navbar/Navbar";
 // Import your components for the other pages (commented for now)
 import Summary from "./pages/Summary";
 import Characters from "./pages/Characters";
@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <React.Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Banner Section */}
       <div className="banner">
