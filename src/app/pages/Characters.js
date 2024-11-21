@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import styles2 from "../../Assets/scss/page.module.scss";
 import img1 from "../../Assets/images/img2.png";
 
