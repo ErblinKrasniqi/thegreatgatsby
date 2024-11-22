@@ -1,5 +1,5 @@
 :root {
-  --background: #ffffff;
+  --background: #d0c9ac;
   --foreground: #171717;
 }
 
@@ -17,8 +17,8 @@ body {
 }
 
 body {
-  color: black;
-  background: var(--background);
+  color: #d0c9ac;
+  background: #cfa500;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 

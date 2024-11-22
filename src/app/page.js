@@ -1,26 +1,32 @@
 "use client";
 import React, { useState } from "react";
 
-// import Navbar from "./shared/Navbar/Navbar";
 // Import your components for the other pages (commented for now)
+
+import Image from "next/image";
+import backG from "../Assets/images/backG.gif";
+import styles from "../Assets/scss/uppersection.module.scss";
+
 import Summary from "./pages/Summary";
-import Characters from "./pages/Characters";
-// import LiteraryDevice from "./pages/LiteraryDevice";
-// import QuestionsAnswers from "./pages/QuestionsAnswers";
-// import Quotes from "./pages/Quotes";
-// import QuickQuizzes from "./pages/QuickQuizzes";
-// import Essays from "./pages/Essays";
-// import FurtherStudy from "./pages/FurtherStudy";
+import Introduction from "./pages/Introduction";
+import Gatsbysbelief from "./pages/Gatsbysbelief";
+import Reality from "./pages/Reality";
+import Livingpast from "./pages/Livingpast";
+import Behavior from "./pages/Behavior";
+import Experience from "./pages/Experience";
+import Forward from "./pages/Forward";
+import Illusion from "./pages/Illusion";
 
 const categorieContent = [
-  { id: 1, name: "Summary" },
-  { id: 2, name: "Characters" },
-  { id: 3, name: "Literary Device" },
-  { id: 4, name: "Questions & Answers" },
-  { id: 5, name: "Quotes" },
-  { id: 6, name: "Quick Quizzes" },
-  { id: 7, name: "Essays" },
-  { id: 8, name: "Further Study" },
+  { id: 1, name: "Can you really repeat the past?!" },
+  { id: 2, name: "Introduction" },
+  { id: 3, name: "Gatsbysbelief" },
+  { id: 4, name: "Reality" },
+  { id: 5, name: "Livingpast" },
+  { id: 6, name: "Behavior" },
+  { id: 7, name: "experience" },
+  { id: 8, name: "Forward" },
+  { id: 9, name: "Illusion" },
 ];
 
 export default function Home() {
@@ -30,8 +36,22 @@ export default function Home() {
     switch (activeCategory) {
       case "Summary":
         return <Summary />;
-      case "Characters":
-        return <Characters />;
+      case "Introduction":
+        return <Introduction />;
+      case "Gatsbysbelief":
+        return <Gatsbysbelief />;
+      case "Reality":
+        return <Reality />;
+      case "Livingpast":
+        return <Livingpast />;
+      case "Behavior":
+        return <Behavior />;
+      case "experience":
+        return <Experience />;
+      case "Forward":
+        return <Forward />;
+      case "Illusion":
+        return <Illusion />;
       default:
         return <Summary />;
     }
@@ -39,11 +59,17 @@ export default function Home() {
 
   return (
     <React.Fragment>
-      {/* <Navbar /> */}
-
       {/* Banner Section */}
-      <div className="banner">
-        <h1 className="banner-text">The Great Gatsby</h1>
+
+      <div className={styles.containerS}>
+        <div></div>
+        <div className={styles.text}>
+          <h1>
+            We design <br /> the feature
+          </h1>
+          <p>lorem ibsut lorem ibsut this is lorem</p>
+        </div>
+        <Image src={backG} alt="nothing" />
       </div>
 
       <div className="container mt-4">
