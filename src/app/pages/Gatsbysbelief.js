@@ -9,7 +9,7 @@ const Gatsbysbelief = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Gatsby’s Belief: Can He Recapture the Past?</h3>
+        <h3>Gatsby&apos;s Belief: Can He Recapture the Past?</h3>
         <div className={styles2.line}></div>
       </div>
 
@@ -24,8 +24,10 @@ const Gatsbysbelief = () => {
           {/* Paragraph */}
           <div className={styles2.paragraph}>
             <p>
-              -Famous Quote: “Can't repeat the past? -Why of course you can!”
-              -Gatsby’s Fixation
+              Famous Quote: &ldquo;Can&apos;t repeat the past? &mdash; Why of
+              course you can!&rdquo;
+              <br />
+              Gatsby&apos;s Fixation
             </p>
           </div>
 
