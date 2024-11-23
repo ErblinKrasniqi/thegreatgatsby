@@ -23,16 +23,7 @@ const Introduction = () => {
 
           {/* Paragraph */}
           <div className={styles2.paragraph}>
-            <p>
-              Have you ever wished you could undo a mistake or relive your best
-              moment? What if someone told you it was impossible?” This dilemma
-              plays out in The Great Gatsby, where the central question is: Can
-              you really repeat the past? Gatsby&apos;s obsessive pursuit to
-              recreate a specific moment in time—his romance with Daisy—drives
-              the novel&apos;s tragic arc. But is living in the past
-              destructive, or does it reflect a lost ideal? Can Gatsby&apos;s
-              longing for the past be universal, or is it uniquely his own?
-            </p>
+            <p>Can we really repeat the past?</p>
           </div>
           <Image src={img5} alt="not" className="img-fluid" />
           <div className="text-center mb-4"></div>
