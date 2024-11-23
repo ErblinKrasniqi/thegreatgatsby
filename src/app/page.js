@@ -13,6 +13,7 @@ import Gatsbysbelief from "./pages/Gatsbysbelief";
 import Reality from "./pages/Reality";
 import Livingpast from "./pages/Livingpast";
 import Behavior from "./pages/Behavior";
+import Booktrailer from "./pages/booktrailer";
 
 import Forward from "./pages/Forward";
 import Illusion from "./pages/Illusion";
@@ -26,6 +27,7 @@ const categorieContent = [
   { id: 6, name: "Gatsby's longing" },
   { id: 8, name: "Nick's Perspective" },
   { id: 9, name: "Conclusion" },
+  { id: 10, name: "Booktrailer" },
 ];
 
 export default function Home() {
@@ -49,6 +51,8 @@ export default function Home() {
         return <Forward />;
       case "Conclusion":
         return <Illusion />;
+      case "Booktrailer":
+        return <Booktrailer />;
       default:
         return <Summary />;
     }
