@@ -25,14 +25,14 @@ const Gatsbysbelief = () => {
           <div className={styles2.paragraph}>
             <p>
               A Romantic Ideal or a Tragic Flaw? Gatsby firmly believes in the
-              possibility of recapturing the past, saying, “Can't repeat the
-              past? Why of course you can!” His entire life revolves around
+              possibility of recapturing the past, saying, “Can&apos;t repeat
+              the past? Why of course you can!” His entire life revolves around
               winning Daisy back and re-creating the golden moment they shared.
               However, his fixation on this ideal distorts his reality. Key
-              visual: A timeline showing Gatsby’s rise to wealth, his lavish
-              parties, and his obsession with Daisy. This includes a clickable
-              symbol map featuring the green light and Dr. T.J. Eckleburg’s
-              eyes, inviting users to explore their meanings.
+              visual: A timeline showing Gatsby&apos;s rise to wealth, his
+              lavish parties, and his obsession with Daisy. This includes a
+              clickable symbol map featuring the green light and Dr. T.J.
+              Eckleburg&apos;s eyes, inviting users to explore their meanings.
             </p>
           </div>
 

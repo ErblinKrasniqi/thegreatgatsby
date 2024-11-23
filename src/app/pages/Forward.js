@@ -26,9 +26,9 @@ const Forward = () => {
               Learning to Move Forward While Nick begins the novel idealizing
               Gatsby, by the end, he realizes the danger of clinging to the
               past. His growth comes from accepting the present and moving
-              forward. Visuals: Show Nick's journey from admiration to
+              forward. Visuals: Show Nick&apos;s journey from admiration to
               disillusionment, highlighting the contrast between his grounded
-              perspective and Gatsb&apos;s obsession. This can be paired with a
+              perspective and Gatsby&apos;s obsession. This can be paired with a
               reflective prompt: “What does Nick&apos;s growth teach us about
               the importance of living in the present?”
             </p>

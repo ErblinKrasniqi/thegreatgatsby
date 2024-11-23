@@ -22,9 +22,9 @@ const Behavior = () => {
           </div>
           <div className={styles2.paragraph}>
             <p>
-              A Universal Desire or a Destructive Obsession? While Gatsb&apos;s
+              A Universal Desire or a Destructive Obsession? While Gatsby&apos;s
               obsession is extreme, it taps into a universal longing to relive
-              better times. We often yearn for the past, whether it's our
+              better times. We often yearn for the past, whether it&apos;s our
               childhood or an idealized relationship. However, Gatsby takes this
               desire to a tragic extreme by reshaping his entire identity.
               Interactive idea: Share modern examples of nostalgia—reviving
