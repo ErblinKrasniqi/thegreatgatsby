@@ -24,10 +24,15 @@ const Gatsbysbelief = () => {
           {/* Paragraph */}
           <div className={styles2.paragraph}>
             <p>
-              Famous Quote: &ldquo;Can&apos;t repeat the past? &mdash; Why of
-              course you can!&rdquo;
-              <br />
-              Gatsby&apos;s Fixation
+              A Romantic Ideal or a Tragic Flaw? Gatsby firmly believes in the
+              possibility of recapturing the past, saying, “Can't repeat the
+              past? Why of course you can!” His entire life revolves around
+              winning Daisy back and re-creating the golden moment they shared.
+              However, his fixation on this ideal distorts his reality. Key
+              visual: A timeline showing Gatsby’s rise to wealth, his lavish
+              parties, and his obsession with Daisy. This includes a clickable
+              symbol map featuring the green light and Dr. T.J. Eckleburg’s
+              eyes, inviting users to explore their meanings.
             </p>
           </div>
 

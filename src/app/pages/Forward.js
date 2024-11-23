@@ -8,7 +8,7 @@ const Forward = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Living in the Past vs. Moving Forward</h3>
+        <h3>Nick's Perspective</h3>
         <div className={styles2.line}></div>
       </div>
 
@@ -22,7 +22,16 @@ const Forward = () => {
 
           {/* Paragraph */}
           <div className={styles2.paragraph}>
-            <p>-Nick’s development -The key message</p>
+            <p>
+              Learning to Move Forward While Nick begins the novel idealizing
+              Gatsby, by the end, he realizes the danger of clinging to the
+              past. His growth comes from accepting the present and moving
+              forward. Visuals: Show Nick's journey from admiration to
+              disillusionment, highlighting the contrast between his grounded
+              perspective and Gatsby's obsession. This can be paired with a
+              reflective prompt: “What does Nick’s growth teach us about the
+              importance of living in the present?”
+            </p>
           </div>
 
           <div className="text-center mb-4"></div>

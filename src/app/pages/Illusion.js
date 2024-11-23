@@ -8,7 +8,7 @@ const Illusion = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Conclusion: The Illusion of Recapturing the Past</h3>
+        <h3>Conclusion</h3>
         <div className={styles2.line}></div>
       </div>
 
@@ -22,7 +22,15 @@ const Illusion = () => {
 
           {/* Paragraph */}
           <div className={styles2.paragraph}>
-            <p>- Growth Comes from the Present - Gatsby’s Tragic Fate</p>
+            <p>
+              The Illusion of Recapturing the Past The Great Gatsby ultimately
+              shows us that the past is irreversible. No matter how much we long
+              to bring back a perfect moment, time, people, and circumstances
+              change. Gatsby’s destruction serves as a stark reminder that we
+              must embrace the present in order to grow. Reflective prompt: “So
+              we beat on, boats against the current, borne back ceaselessly into
+              the past.” What does this quote mean to you? Click to reflect.
+            </p>
           </div>
 
           <div className="text-center mb-4"></div>

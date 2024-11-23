@@ -13,20 +13,19 @@ import Gatsbysbelief from "./pages/Gatsbysbelief";
 import Reality from "./pages/Reality";
 import Livingpast from "./pages/Livingpast";
 import Behavior from "./pages/Behavior";
-import Experience from "./pages/Experience";
+
 import Forward from "./pages/Forward";
 import Illusion from "./pages/Illusion";
 
 const categorieContent = [
   { id: 1, name: "Can you really repeat the past?!" },
   { id: 2, name: "Introduction" },
-  { id: 3, name: "Gatsbysbelief" },
-  { id: 4, name: "Reality" },
-  { id: 5, name: "Livingpast" },
-  { id: 6, name: "Behavior" },
-  { id: 7, name: "experience" },
-  { id: 8, name: "Forward" },
-  { id: 9, name: "Illusion" },
+  { id: 3, name: "⁠Gatsby's belief" },
+  { id: 4, name: "Illusion vs. Reality" },
+  { id: 5, name: "Is living in the Past Destructive?" },
+  { id: 6, name: "Gatsby's longing" },
+  { id: 8, name: "Nick's Perspective" },
+  { id: 9, name: "Conclusion" },
 ];
 
 export default function Home() {
@@ -38,19 +37,17 @@ export default function Home() {
         return <Summary />;
       case "Introduction":
         return <Introduction />;
-      case "Gatsbysbelief":
+      case "⁠Gatsby's belief":
         return <Gatsbysbelief />;
-      case "Reality":
+      case "Illusion vs. Reality":
         return <Reality />;
-      case "Livingpast":
+      case "Is living in the Past Destructive?":
         return <Livingpast />;
-      case "Behavior":
+      case "Gatsby's longing":
         return <Behavior />;
-      case "experience":
-        return <Experience />;
-      case "Forward":
+      case "Nick's Perspective":
         return <Forward />;
-      case "Illusion":
+      case "Conclusion":
         return <Illusion />;
       default:
         return <Summary />;
