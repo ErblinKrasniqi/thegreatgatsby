@@ -9,7 +9,9 @@ const Behavior = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Gatsby's Longing: A Universal Desire or a Destructive Obsession</h3>
+        <h3>
+          Gatsby&apos;s Longing: A Universal Desire or a Destructive Obsession
+        </h3>
         <div className={styles2.line}></div>
       </div>
 
