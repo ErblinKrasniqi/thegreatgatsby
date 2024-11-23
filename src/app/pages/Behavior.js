@@ -9,7 +9,7 @@ const Behavior = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Gatsby’s Longing</h3>
+        <h3>Gatsby&apos;s Longing</h3>
         <div className={styles2.line}></div>
       </div>
 
@@ -22,7 +22,7 @@ const Behavior = () => {
           </div>
           <div className={styles2.paragraph}>
             <p>
-              A Universal Desire or a Destructive Obsession? While Gatsby’s
+              A Universal Desire or a Destructive Obsession? While Gatsb&apos;s
               obsession is extreme, it taps into a universal longing to relive
               better times. We often yearn for the past, whether it's our
               childhood or an idealized relationship. However, Gatsby takes this

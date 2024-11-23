@@ -27,11 +27,11 @@ const Introduction = () => {
               Have you ever wished you could undo a mistake or relive your best
               moment? What if someone told you it was impossible?” This dilemma
               plays out in The Great Gatsby, where the central question is: Can
-              you really repeat the past? Gatsby's obsessive pursuit to recreate
-              a specific moment in time—his romance with Daisy—drives the
-              novel’s tragic arc. But is living in the past destructive, or does
-              it reflect a lost ideal? Can Gatsby's longing for the past be
-              universal, or is it uniquely his own?
+              you really repeat the past? Gatsby&apos;s obsessive pursuit to
+              recreate a specific moment in time—his romance with Daisy—drives
+              the novel&apos;s tragic arc. But is living in the past
+              destructive, or does it reflect a lost ideal? Can Gatsby&apos;s
+              longing for the past be universal, or is it uniquely his own?
             </p>
           </div>
           <Image src={img5} alt="not" className="img-fluid" />

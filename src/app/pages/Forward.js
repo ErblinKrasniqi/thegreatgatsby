@@ -8,7 +8,7 @@ const Forward = () => {
     <div className={`container mt-5 ${styles2.page}`}>
       {/* Title Section */}
       <div className={`text-center mb-4 ${styles2.title}`}>
-        <h3>Nick's Perspective</h3>
+        <h3>Nick&apos;s Perspective</h3>
         <div className={styles2.line}></div>
       </div>
 
@@ -28,9 +28,9 @@ const Forward = () => {
               past. His growth comes from accepting the present and moving
               forward. Visuals: Show Nick's journey from admiration to
               disillusionment, highlighting the contrast between his grounded
-              perspective and Gatsby's obsession. This can be paired with a
-              reflective prompt: “What does Nick’s growth teach us about the
-              importance of living in the present?”
+              perspective and Gatsb&apos;s obsession. This can be paired with a
+              reflective prompt: “What does Nick&apos;s growth teach us about
+              the importance of living in the present?”
             </p>
           </div>
 
