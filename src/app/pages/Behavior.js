@@ -26,7 +26,9 @@ const Behavior = () => {
           <div className={styles2.paragraph}>
             <ul>
               <li>Many people long to relive the past, like Gatsby.</li>
-              <li>Gatsby’s obsession is extreme, changing his whole life.</li>
+              <li>
+                Gatsby&apos; obsession is extreme, changing his whole life.
+              </li>
               <li>
                 His desire connects to a universal human feeling but becomes
                 destructive.
