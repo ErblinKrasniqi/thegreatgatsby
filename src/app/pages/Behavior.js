@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img10 from "../../Assets/images/img10.jpeg";
 import img11 from "../../Assets/images/img11.jpeg";
@@ -23,8 +22,19 @@ const Behavior = () => {
             <Image src={img10} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Bullet Points */}
+          <div className={styles2.paragraph}>
+            <ul>
+              <li>Many people long to relive the past, like Gatsby.</li>
+              <li>Gatsby’s obsession is extreme, changing his whole life.</li>
+              <li>
+                His desire connects to a universal human feeling but becomes
+                destructive.
+              </li>
+            </ul>
+          </div>
 
+          {/* Image */}
           <div className="text-center mb-4">
             <Image src={img11} alt="not" className="img-fluid" />
           </div>
