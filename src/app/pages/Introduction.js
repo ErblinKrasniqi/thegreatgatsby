@@ -24,12 +24,12 @@ const Introduction = () => {
           <div className={styles2.paragraph}>
             <ul>
               <li>
-                The Great Gatsby explores whether it's possible to fix past
+                The Great Gatsby explores whether it&apos;s possible to fix past
                 mistakes.
               </li>
               <li>
-                Gatsby's obsession with recreating his love with Daisy drives
-                the plot.
+                Gatsby&apos;s obsession with recreating his love with Daisy
+                drives the plot.
               </li>
               <li>
                 The story questions if longing for the past is harmful or
