@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img4 from "../../Assets/images/img4.jpeg";
 import img5 from "../../Assets/images/img5.jpeg";
@@ -21,10 +20,25 @@ const Introduction = () => {
             <Image src={img4} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Bullet Points */}
           <div className={styles2.paragraph}>
-            <p>Can we really repeat the past?</p>
+            <ul>
+              <li>
+                The Great Gatsby explores whether it's possible to fix past
+                mistakes.
+              </li>
+              <li>
+                Gatsby's obsession with recreating his love with Daisy drives
+                the plot.
+              </li>
+              <li>
+                The story questions if longing for the past is harmful or
+                hopeful.
+              </li>
+            </ul>
           </div>
+
+          {/* Image */}
           <Image src={img5} alt="not" className="img-fluid" />
           <div className="text-center mb-4"></div>
         </div>

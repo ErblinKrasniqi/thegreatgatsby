@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img15 from "../../Assets/images/img15.jpg";
 import img24 from "../../Assets/images/img24.jpg";
@@ -21,12 +20,21 @@ const Illusion = () => {
             <Image src={img24} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Bullet Points */}
           <div className={styles2.paragraph}>
-            <p>- Growth Comes from the Present - Gatsby’s Tragic Fate</p>
+            <ul>
+              <li>The Great Gatsby shows the past can’t be recaptured.</li>
+              <li>
+                Time and people change, and clinging to the past is harmful.
+              </li>
+              <li>Gatsby’s tragedy reminds us to focus on the present.</li>
+            </ul>
           </div>
-          <Image src={img15} alt="not" className="img-fluid" />
-          <div className="text-center mb-4"></div>
+
+          {/* Image */}
+          <div className="text-center mb-4">
+            <Image src={img15} alt="not" className="img-fluid" />
+          </div>
         </div>
       </div>
     </div>

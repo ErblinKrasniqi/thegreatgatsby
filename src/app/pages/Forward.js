@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img22 from "../../Assets/images/img22.jpg";
 import img23 from "../../Assets/images/img23.jpg";
@@ -21,12 +20,21 @@ const Forward = () => {
             <Image src={img22} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Bullet Points */}
           <div className={styles2.paragraph}>
-            <p>-Nick&apos;s development -The key message</p>
+            <ul>
+              <li>
+                Nick initially admires Gatsby but learns the danger of clinging
+                to the past.
+              </li>
+              <li>He grows by accepting the present.</li>
+            </ul>
           </div>
-          <Image src={img23} alt="not" className="img-fluid" />
-          <div className="text-center mb-4"></div>
+
+          {/* Image */}
+          <div className="text-center mb-4">
+            <Image src={img23} alt="not" className="img-fluid" />
+          </div>
         </div>
       </div>
     </div>

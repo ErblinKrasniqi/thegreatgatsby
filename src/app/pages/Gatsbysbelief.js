@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img2 from "../../Assets/images/img2.jpg";
 import img3 from "../../Assets/images/img3.jpg";
@@ -21,16 +20,19 @@ const Gatsbysbelief = () => {
             <Image src={img2} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Content */}
           <div className={styles2.paragraph}>
-            <p>
-              Famous Quote: &ldquo;Can&apos;t repeat the past? &mdash; Why of
-              course you can!&rdquo;
-              <br />
-              Gatsby&apos;s Fixation
-            </p>
+            {/* Famous Quote */}
+
+            {/* Bullet Points */}
+            <ul>
+              <li>Gatsby believes the past can be repeated.</li>
+              <li>His life is consumed with winning Daisy back.</li>
+              <li>This belief makes him lose touch with reality.</li>
+            </ul>
           </div>
 
+          {/* Image */}
           <div className="text-center mb-4">
             <Image src={img3} alt="not" className="img-fluid" />
           </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles2 from "../../Assets/scss/page.module.scss";
 import img8 from "../../Assets/images/img8.jpg";
 import img9 from "../../Assets/images/img9.jpg";
@@ -21,11 +20,16 @@ const Livingpast = () => {
             <Image src={img8} alt="not" className="img-fluid" />
           </div>
 
-          {/* Paragraph */}
+          {/* Bullet Points */}
           <div className={styles2.paragraph}>
-            <p>Illusion vs. Reality Key Moment Nick&apos;s Reflection</p>
+            <ul>
+              <li>Gatsby’s obsession leads to bad choices and his downfall.</li>
+              <li>He manipulates others to recreate an impossible dream.</li>
+              <li>His refusal to move forward causes his destruction.</li>
+            </ul>
           </div>
 
+          {/* Image */}
           <div className="text-center mb-4">
             <Image src={img9} alt="not" className="img-fluid" />
           </div>
